@@ -42,3 +42,13 @@ body {
 .activator {
     max-height: 200px;
 }
+
+#work {
+    text-align: center;
+}
+
+.skill-image {
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 8px #888888;
+}
