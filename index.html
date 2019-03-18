@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Liam Condon</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- Compiled and minified Materialize CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<!-- Supplemental CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar-fixed">
+    <nav class="black">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">My Portfolio</a>
+                <ul class="right hide-on-med-and-down" id="navList">
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#intro">About Me</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- Landing Screen -->
+<div class="section" id="landing">
+    <h5 id="mainText" class="center"></h5>
+    <h1 style="color: white;"  class="center">
+        LIAM <b>CONDON</b>
+    </h1>
+    <h6 id="mainText" class="center">Aspiring Web Developer</h6>
+</div>
+
+<!-- FIXED ACTION BUTTON -->
+<div class="fixed-action-btn vertical">
+        <a class="btn-floating btn-large  blue-grey darken-4">
+            <i class="fa fa-globe"></i>
+        </a>
+        <ul>
+            <li><a class="btn-floating  blue darken-4"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="btn-floating grey darken-3"> <i class="fab fa-github"></i></a></li>
+            <li><a class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+
+<!--Parallax-->
+ <div id="p1" class="parallax-container">
+    <div  class="parallax">
+        <img src="assets/images/cropped-open-road-1.jpeg">
+    </div>
+    <div class="container" id="about-container">
+        <div class="row">
+            <div class = "col s12 m4">
+                <img id="headshot" src="assets/images/cutmypic.png" alt="">
+            </div>
+            <div class="col s12 m8 center white-text">
+                <h1>ABOUT ME</h1>
+                <p id ="about-text">
+                    Aspiring web developer, code bootcamp graduate, renewable energy enthusiast, amateur photographer, lover of long bike rides.
+                </p>
+            </div>
+        </div>
+    </div>      
+</div>
+
+<!--Portfolio-->
+<div class="section" style="background-color: #141414;" id="work">
+    <div class="container">
+        <h3 class="header text_b center"><b>PORTFOLIO</b></h3>
+        <br>
+        <div class="row ">
+            <div class="col s12 m4">
+                <div class="card hoverable grey darken-3">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/got-screenshot.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator purple-text text-lighten-5">GoT - Battle Royale<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="purple-text text-lighten-5" href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal  grey darken-3">
+                        <span class="card-title purple-text text-lighten-5">GoT - Battle Royale<i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>              
+            <div class="col s12 m4">
+                <div class="card hoverable grey darken-3">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/kender-screenshot.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator purple-text text-lighten-5">Kender<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="purple-text text-lighten-5" href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal grey darken-3">
+                        <span class="card-title purple-text text-lighten-5">Kender <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>   
+            <div class="col s12 m4">
+                <div class="card hoverable grey darken-3">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/ye-ole-gif-screenshot.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator purple-text text-lighten-5">Project Title <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="purple-text text-lighten-5" href="#">Project link</a></p>
+                    </div>
+                    <div class="card-reveal  grey darken-3">
+                        <span class="card-title purple-text text-lighten-5">Project Title <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>                         
+        </div>
+    </div>
+</div>
+
+<!-- Skill Sets -->
+<div class="section" style="background-color: white" id="skillsets">
+    <div class="container">
+        <div class="row">
+            <h1 class="center white-text">
+                My Skills
+            </h1>
+        </div>
+        <div class="row center">
+            <div class="col s12 m6 l3">
+                <img class="responsive-img" alt="HTML5" src="assets/images/html_css_js_bootstrap.png">
+            </div>
+            <div class="col s12 m6 l3">
+                <img class="responsive-img" alt="Materialize" src="assets/images/materialize.png">
+            </div>
+            <div class="col s12 m6 l3">
+                <img class="responsive-img" alt="jQuery" src="assets/images/jquery.gif">
+            </div>
+            <div class="col s12 m6 l3">
+                <img class="responsive-img" alt="React" src="assets/images/react.png">
+            </div>
+        </div>
+        <div class="row center">
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img" alt="Firebase" src="assets/images/firebase.png">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img" alt="Node" src="assets/images/node.png">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img" alt="MongoDB" src="assets/images/mongo.png">
+                </div>
+                <div class="col s12 m6 l3">
+                    <img class="responsive-img" alt="MySQL" src="img/shell.png">
+                </div>
+            </div>
+    </div>
+</div>
+
+
+<!-- jQuery Link -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+<!-- Supplemental JS -->
+<script src="assets/javascript/logic.js"></script>
+</body>
+</html>
